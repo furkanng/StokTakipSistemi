@@ -16,5 +16,23 @@ namespace StokTakipSistemi
         {
             InitializeComponent();
         }
+
+        private void btnAnaCikis_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.FixedSingle; //Formun büyümesini engelliyor.
+
+        }
+
+        private void btnKesimhane_Click(object sender, EventArgs e)
+        {
+            FormKesimhane frmKesim = new FormKesimhane();
+            frmKesim.Show();
+        }
     }
 }
