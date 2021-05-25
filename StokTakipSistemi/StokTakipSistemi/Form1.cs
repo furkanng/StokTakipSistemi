@@ -29,10 +29,17 @@ namespace StokTakipSistemi
 
         }
 
-        private void btnKesimhane_Click(object sender, EventArgs e)
+        private void btnTencereUretim_Click(object sender, EventArgs e)
         {
-            FormKesimhane frmKesim = new FormKesimhane();
-            frmKesim.Show();
+            FormTencereUretim frmTenUret = new FormTencereUretim();
+            frmTenUret.Show();
+            
+        }
+
+        private void btnHamMadde_Click(object sender, EventArgs e)
+        {
+            formHammadde frmHamMad = new formHammadde();
+            frmHamMad.Show();
         }
     }
 }

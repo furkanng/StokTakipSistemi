@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StokTakipSistemi
 {
-    public partial class FormKesimhane : Form
+    public partial class FormAlüminyum : Form
     {
-        public FormKesimhane()
+        public FormAlüminyum()
         {
             InitializeComponent();
         }
