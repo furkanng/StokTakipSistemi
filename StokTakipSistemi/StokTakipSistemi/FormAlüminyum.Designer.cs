@@ -56,9 +56,9 @@ namespace StokTakipSistemi
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 23);
+            this.groupBox1.Location = new System.Drawing.Point(12, 9);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(609, 147);
+            this.groupBox1.Size = new System.Drawing.Size(618, 147);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Alüminyum Ekle";
@@ -141,9 +141,9 @@ namespace StokTakipSistemi
             this.columnHeader4,
             this.columnHeader5});
             this.lstviewAlümin.HideSelection = false;
-            this.lstviewAlümin.Location = new System.Drawing.Point(12, 176);
+            this.lstviewAlümin.Location = new System.Drawing.Point(12, 162);
             this.lstviewAlümin.Name = "lstviewAlümin";
-            this.lstviewAlümin.Size = new System.Drawing.Size(609, 273);
+            this.lstviewAlümin.Size = new System.Drawing.Size(618, 303);
             this.lstviewAlümin.TabIndex = 11;
             this.lstviewAlümin.UseCompatibleStateImageBehavior = false;
             this.lstviewAlümin.View = System.Windows.Forms.View.Details;
@@ -181,7 +181,7 @@ namespace StokTakipSistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(642, 478);
             this.Controls.Add(this.lstviewAlümin);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormAlüminyum";

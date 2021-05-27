@@ -64,6 +64,12 @@
     <Compile Include="formHammadde.Designer.cs">
       <DependentUpon>formHammadde.cs</DependentUpon>
     </Compile>
+    <Compile Include="formPaslanmazSac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formPaslanmazSac.Designer.cs">
+      <DependentUpon>formPaslanmazSac.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTencereUretim.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formHammadde.resx">
       <DependentUpon>formHammadde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formPaslanmazSac.resx">
+      <DependentUpon>formPaslanmazSac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTencereUretim.resx">
       <DependentUpon>FormTencereUretim.cs</DependentUpon>
